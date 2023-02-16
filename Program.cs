@@ -46,8 +46,6 @@ string[] SelectThreeSymbolString(string[] stringArray)
 
     return newStringArray;
 }
-
-
 Console.Write("Введите число элементов массива(положительное число):");
 int size = Convert.ToInt32(Console.ReadLine());
 if (size > 0)
@@ -67,4 +65,7 @@ else
 {
     Console.WriteLine("Ошибка. Введенное значение не соответствует требованиям.");
 }
+
+
+
 
